@@ -1,0 +1,5 @@
+height = int(input("Enter the height: "))
+length = int(input("Enter the length: "))
+width = int(input("Enter the width: "))
+print("Volume = ", height * length * width)
+print("Side surface area", 2 * height * (length + width))
